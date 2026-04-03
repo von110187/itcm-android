@@ -51,45 +51,49 @@ Built as a Final Year Project, developed solo with self-taught Kotlin and Androi
 ## Project Structure
 
 ```
-itcm/
-├── MainActivity.kt                  # User login
-├── RegisterActivity.kt              # User registration + profile picture upload
-├── ResetPasswordActivity.kt         # Password reset
-│
-├── HomepageActivity.kt              # Community feed
-├── PostDialogFragment.kt            # Create post dialog
-├── CommentDialogFragment.kt         # Comment dialog
-├── UpdatePostActivity.kt            # Edit post
-├── SearchForPostActivity.kt         # Post search input
-├── SearchPostResultActivity.kt      # Post search results
-│
-├── MarketplaceActivity.kt           # Product listing feed
-├── SellActivity.kt                  # Create product listing
-├── BuyActivity.kt                   # Product detail & purchase
-├── UpdateProductActivity.kt         # Edit product listing
-├── SearchForProductActivity.kt      # Product search input
-├── SearchProductResultActivity.kt   # Product search results
-│
-├── OrderActivity.kt                 # Order management
-├── OrderAdapter.kt                  # Order list adapter
-├── ProfileOrderActivity.kt          # Order history
-├── ProfilePostActivity.kt           # User profile & posts
-├── ProfileProductActivity.kt        # User product listings
-│
-├── NotificationActivity.kt          # Notifications feed
-├── NotificationAdapter.kt           # Notification list adapter
-├── ChatActivity.kt                  # Chat screen
-├── imageAdapter.kt                  # Multi-image adapter
-├── ProductAdapter.kt                # Product list adapter
-│
-├── AdminLoginActivity.kt            # Admin login
-├── AdminResetPasswordActivity.kt    # Admin password reset
-├── AdminPostActivity.kt             # Admin post moderation
-├── AdminProductActivity.kt          # Admin product management
-├── AdminUpdatePostActivity.kt       # Admin edit post
-├── AdminUpdateProductActivity.kt    # Admin edit product
-├── AdminOrderActivity.kt            # Admin order management
-└── AdminUpdateOrderActivity.kt      # Admin update order status
+itcm-android/
+├── auth/
+│   ├── MainActivity.kt
+│   ├── RegisterActivity.kt
+│   └── ResetPasswordActivity.kt
+├── community/
+│   ├── HomepageActivity.kt
+│   ├── PostDialogFragment.kt
+│   ├── CommentDialogFragment.kt
+│   ├── UpdatePostActivity.kt
+│   ├── SearchForPostActivity.kt
+│   └── SearchPostResultActivity.kt
+├── marketplace/
+│   ├── MarketplaceActivity.kt
+│   ├── SellActivity.kt
+│   ├── BuyActivity.kt
+│   ├── UpdateProductActivity.kt
+│   ├── SearchForProductActivity.kt
+│   ├── SearchProductResultActivity.kt
+│   └── ProductAdapter.kt
+├── order/
+│   ├── OrderActivity.kt
+│   ├── OrderAdapter.kt
+│   └── ProfileOrderActivity.kt
+├── profile/
+│   ├── ProfilePostActivity.kt
+│   └── ProfileProductActivity.kt
+├── notification/
+│   ├── NotificationActivity.kt
+│   └── NotificationAdapter.kt
+├── chat/
+│   └── ChatActivity.kt
+├── admin/
+│   ├── AdminLoginActivity.kt
+│   ├── AdminResetPasswordActivity.kt
+│   ├── AdminPostActivity.kt
+│   ├── AdminProductActivity.kt
+│   ├── AdminUpdatePostActivity.kt
+│   ├── AdminUpdateProductActivity.kt
+│   ├── AdminOrderActivity.kt
+│   └── AdminUpdateOrderActivity.kt
+└── util/
+    └── imageAdapter.kt
 ```
 
 ---
